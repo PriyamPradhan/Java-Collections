@@ -19,7 +19,7 @@ public class LearnIterator {
         }
 
 
-        for(Integer i : list){
+        for(Integer i : list){                        //commonly used
             System.out.println("The element with foreach loop is : " + i);
         }
         
