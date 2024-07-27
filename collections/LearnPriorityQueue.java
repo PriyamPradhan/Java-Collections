@@ -17,7 +17,7 @@ public class LearnPriorityQueue {
         pq.offer(400);
         pq.offer(900);
 
-        System.out.println("PriorityQueue : " + pq);    //even if 100 was added in the middle, the value of 100 came to front
+        System.out.println("PriorityQueue : " + pq);    //even if 100 was added in the middle, the value of 100 came to front because of MinHeap Data Structure
 
         pq.poll();
 
@@ -25,7 +25,7 @@ public class LearnPriorityQueue {
 
 
 
-        Queue<Integer> reverse = new PriorityQueue<>(Comparator.reverseOrder());      //PriorityQueue with numbers
+        Queue<Integer> reverse = new PriorityQueue<>(Comparator.reverseOrder());      //PriorityQueue with numbers ReverseOrder
 
         reverse.offer(500);
         reverse.offer(200);
@@ -33,7 +33,7 @@ public class LearnPriorityQueue {
         reverse.offer(400);
         reverse.offer(900);
 
-        System.out.println("PriorityQueue reverse : " + reverse);    //even if 100 was added in the middle, the value of 100 came to front
+        System.out.println("PriorityQueue reverse : " + reverse);    //even if 100 was added in the middle, the value of 100 came to front because of MaxHeap Data Structure
 
         reverse.poll();
 
