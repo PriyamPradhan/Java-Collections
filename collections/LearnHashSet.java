@@ -2,7 +2,7 @@ package collections;
 
 import java.util.Set;
 
-public class HashSet {
+public class LearnHashSet {
 
     public static void main(String[] args) {
         
